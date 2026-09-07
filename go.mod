@@ -7,6 +7,9 @@ replace go.uber.org/mock => go.uber.org/mock v0.4.0
 
 replace cel.dev/expr => cel.dev/expr v0.25.1
 
+// Keep the tree formatted by the gofumpt that main was formatted with.
+replace mvdan.cc/gofumpt => mvdan.cc/gofumpt v0.9.2
+
 require (
 	github.com/bazelbuild/buildtools v0.0.0-20260527135131-3b47c424ecf5
 	github.com/bazelbuild/remote-apis v0.0.0-20260331222004-becdd8f9ff81
@@ -68,6 +71,7 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/go-jsonnet v0.22.0 // indirect
 	github.com/google/s2a-go v0.1.9 // indirect
 	github.com/google/uuid v1.6.0 // indirect
